@@ -1,0 +1,569 @@
+/* title */
+
+#Zorrito {
+    background: url("../Images/bannerImage.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 20em;
+    padding-bottom: 9em;
+    color: white;
+}
+
+#Star {
+    transition: all 1s;
+}
+
+#Star:hover {
+    transform: scale(1);
+}
+
+#Welcome {
+    font-size: 10em;
+    font-family: "Tangerine", "serif";
+    color: #c59d5f;
+    transition: all 0.7s;
+}
+
+#Welcome:hover {
+    color: #85693f;
+}
+
+#Star {
+    display: block;
+    color: rgb(255, 205, 113);
+}
+
+#line {
+    color: white;
+}
+
+hr {
+    transition: all 1s;
+}
+
+hr:hover {
+    transform: scale(1);
+}
+
+#tozorito {
+    font-size: 5em;
+    color: white;
+    transition: all 0.7s;
+}
+
+#tozorito:hover {
+    color: rgb(138, 137, 137);
+}
+
+#ph_STdrGn {
+    padding-top: 10em;
+}
+
+#YCFL {
+    font-size: 60px;
+    color: inherit;
+    font-weight: lighter;
+    line-height: 1.5em;
+    display: block;
+    text-align: center;
+    color: #ff5353;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#YFCL {
+    display: block;
+    color: rgb(129, 199, 0);
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+    font-weight: normal;
+    text-align: center;
+}
+
+#MobileWatchLeaf {
+    display: flex;
+    margin-top: 7em;
+    margin-left: 6em;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+#Mobile {
+    display: block;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+#watch {
+    margin-right: 20px;
+}
+
+#EasyToOrder {
+    color: rgb(0, 140, 233);
+    font-weight: 500;
+    font-size: xx-large;
+    width: 30%;
+    margin-left: 20px;
+    justify-content: center;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#EasyToOrderDescription {
+    display: block;
+    justify-content: center;
+    width: 50%;
+    font-size: large;
+    font-weight: bold;
+    opacity: 0.7;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666666;
+    margin-left: 20px;
+}
+
+#EasyCustomization {
+    color: rgb(252, 182, 32);
+    font-weight: 500;
+    font-size: xx-large;
+    width: 30%;
+    justify-content: center;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 1.4em;
+}
+
+#EasyCustomizationDescription {
+    display: block;
+    justify-content: center;
+    width: 50%;
+    font-size: large;
+    font-weight: bold;
+    opacity: 0.7;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666666;
+}
+
+#HealthyOptions {
+    color: rgb(60, 212, 0);
+    font-weight: 500;
+    font-size: xx-large;
+    width: 30%;
+    justify-content: center;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 2em;
+}
+
+#HealthyOptionsDescription {
+    display: block;
+    justify-content: center;
+    width: 50%;
+    font-size: large;
+    font-weight: bold;
+    opacity: 0.7;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666666;
+    margin-top: 2.3em;
+}
+
+#Watchicon {
+    margin-top: 1em;
+}
+
+#EasyCustomizationDescription {
+    margin-top: 2.5em;
+}
+
+#LeafIcon {
+    box-shadow: 0 0 30px rgb(240, 238, 238);
+    margin-top: 2em;
+}
+
+#Leaficon {
+    margin-top: 1.5em;
+}
+
+#HowItWorks {
+    background: linear-gradient( #4cd964, #4cd964, rgb(1, 176, 219), rgb(1, 176, 219));
+    padding-bottom: 3em;
+    justify-content: center;
+    position: relative;
+}
+
+#HowItWorksId {
+    padding-top: 1em;
+    text-align: center;
+}
+
+#HowItWorksWord {
+    color: white;
+    font-size: 3em;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+
+#FirstPart {
+    display: block;
+    margin-top: 4em;
+    width: 80%;
+    margin-left: 7em;
+}
+
+#OrderFirstPart {
+    color: white;
+    opacity: 0.98;
+    font-size: 3em;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#OFTD {
+    color: #494949;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+#Page4 {
+    display: block;
+    margin-top: 1em;
+    background: rgb(35, 51, 87);
+    padding-bottom: 2em;
+}
+
+#Mixed1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MixedImageMeals {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.8em;
+    width: 46%;
+}
+
+@media screen and (max-width: 960px) {
+    .MixedImageMeals {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0.8em;
+        width: 96%;
+    }
+}
+
+#SUBSCRIPTION {
+    display: inline-block;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 1%;
+    font-size: 6em;
+    font-family: "Tangerine", "serif";
+    padding-top: 1em;
+    width: 46%;
+    padding-bottom: 1em;
+    color: #c59d5f;
+}
+
+@media screen and (max-width: 960px) {
+    #SUBSCRIPTION {
+        display: inline-block;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 1%;
+        font-size: 6em;
+        font-family: "Tangerine", "serif";
+        padding-top: 1em;
+        width: 96%;
+        padding-bottom: 1em;
+        color: #c59d5f;
+    }
+}
+
+#Design1 {
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+
+#Mixed2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#ADDONES1 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 6em;
+    font-family: "Tangerine", "serif";
+    padding-top: 1em;
+    width: 46%;
+    padding-bottom: 1em;
+    color: #c59d5f;
+}
+
+@media screen and (max-width: 960px) {
+    #ADDONES1 {
+        display: inline-block;
+        text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 6em;
+        font-family: "Tangerine", "serif";
+        padding-top: 1em;
+        width: 96%;
+        padding-bottom: 1em;
+        color: #c59d5f;
+    }
+}
+
+#design2 {
+    display: block;
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+
+#Page5 {
+    display: block;
+    margin-top: 3em;
+}
+
+#MIXEDPAGE5PATTERN1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#MIXEDPAGE5PATTERN1MEALSUBSCRIPTIONS {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#MEALSUBSRCIPTIONSIMAGE {
+    display: block;
+    box-shadow: 0 0 30px rgb(230, 230, 230);
+    margin-left: 1em;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+#MEALSUBSCRIPTIONSTEXTHEADING {
+    display: block;
+    font-size: xxx-large;
+    margin-top: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(75, 211, 193);
+}
+
+#MEALSUBSCRIPTIONTEXTHEADINGDESCRIPTION {
+    display: block;
+    font-size: x-large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 10px;
+    margin-left: 1em;
+}
+
+#MIXEDPAGE5PATTERN1POCKETFRIENDLY {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#POCKETFRIENDLYIMAGE {
+    display: block;
+    box-shadow: 0 0 30px rgb(230, 230, 230);
+    margin-left: 0.5em;
+    border-radius: 100px;
+}
+
+#POCKETFRIENDLYTEXTHEADING {
+    display: block;
+    font-size: xxx-large;
+    margin-top: 1em;
+    margin-left: 20px;
+    color: rgb(255, 153, 0);
+}
+
+#POCKETFRIENDLYTEXTHEADINGDESCRIPTION {
+    display: block;
+    font-size: x-large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 10px;
+    margin-left: 1em;
+}
+
+#MIXEDPAGE5PATTERN2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#MIXEDPAGE5PATTERN2HEALTHYFOOD {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#HEALTHYFOODIMAGE {
+    display: block;
+    margin-left: 2.3em;
+    margin-bottom: 10px;
+}
+
+#HEALTHYFOODTEXTHEADING {
+    display: block;
+    font-size: xxx-large;
+    margin-top: 1em;
+    margin-left: 40px;
+    margin-right: 20px;
+    color: rgb(118, 212, 95);
+}
+
+#HEALTHYFOODTEXTHEADINGDESCRIPTION {
+    display: block;
+    font-size: x-large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 10px;
+    margin-left: 1.9em;
+}
+
+#MIXEDPAGE5PATTERN1ADDONE {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#ADDONEIMAGE {
+    display: block;
+    margin-left: 0.1em;
+}
+
+#ADDONETEXTHEADING {
+    display: block;
+    font-size: xxx-large;
+    margin-top: 1em;
+    color: orangered;
+}
+
+#lOyAlTy {
+    color: rgb(88, 27, 255);
+}
+
+#ADDONETEXTHEADINGDESCRIPTION {
+    display: block;
+    font-size: x-large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 10px;
+}
+
+#LastPage {
+    display: block;
+    background: linear-gradient( white, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black);
+    margin-top: 1em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#ZorritoHeadingLastPage {
+    color: rgb(231, 213, 108);
+    font-size: 6em;
+    font-family: "Goldman", "cursive";
+    font-weight: lighter;
+}
+
+#PagePartOneAfterHeading {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+#Images {
+    display: block;
+}
+
+#MobileImage {
+    margin-left: 4em;
+    margin-right: 20px;
+}
+
+#LocationTextLastPage {
+    display: inline-block;
+    margin-top: 8em;
+}
+
+#LocatinTextMain {
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6em;
+}
+
+#Locationdescription {
+    display: block;
+    color: white;
+    font-size: large;
+    margin-top: 2em;
+    margin-left: 6.3em;
+}
+
+#LocationDescriptionPartTwo {
+    display: block;
+    color: white;
+    font-size: large;
+    margin-top: 3px;
+    margin-left: 0.01em;
+}
+
+#LocationdescriptionpartThree {
+    display: block;
+    color: white;
+    font-size: large;
+    margin-top: 3px;
+    margin-left: 0.9em;
+}
+
+#PlAyStOrE {
+    transition: all 0.6s;
+}
+
+#PlAyStOrE:hover {
+    transform: scale(1.1);
+}
+
+#PlayStoreIconImageLastPage {
+    display: flex;
+    margin-top: 6em;
+    margin-left: 10em;
+    margin-bottom: 3em;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#PlayStoreIconImageLastPage:hover {
+    box-shadow: 0 0 60px rgb(0, 222, 238);
+    transform: scale(1);
+}
+
+.DeveloperdescrriptionLastPage {
+    display: block;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 1px white;
+    transition: all 0.5s;
+}
+
+#developedby {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+#sitebySharmaGarvit {
+    font-size: 1.1em;
+}
+
+.DeveloperdescrriptionLastPage:hover {
+    text-shadow: 0 0 1px blue;
+}
